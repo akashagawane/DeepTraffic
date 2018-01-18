@@ -52,21 +52,7 @@ layer_defs.push({
     num_neurons: 10,
     activation: 'relu'
 });
-layer_defs.push({
-   type: 'fc',
-   num_neurons: 50,
-   activation: 'relu'
-});
-layer_defs.push({
-   type: 'fc',
-   num_neurons: 50,
-   activation: 'relu'
-});
-layer_defs.push({
-   type: 'fc',
-   num_neurons: 20,
-   activation: 'relu'
-});
+
 layer_defs.push({
     type: 'regression',
     num_neurons: num_actions
